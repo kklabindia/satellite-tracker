@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Satellite Tracker</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <h1>Satellite Tracker</h1>
+
+    <input type="number" id="satId" placeholder="Enter Satellite ID (e.g. 25544)">
+    <button onclick="trackSatellite()">Track</button>
+
+    <div id="map"></div>
+
+    <canvas id="satChart"></canvas>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
